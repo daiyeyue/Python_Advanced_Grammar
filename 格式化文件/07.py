@@ -9,9 +9,11 @@ student={
 }
 
 print(type(student))
+print(student)
 
 stu_json = json.dumps(student)
 print(type(stu_json))
+print(stu_json)
 print("JSON对象:{0}".format(stu_json))
 
 stu_dict = json.loads(stu_json)
